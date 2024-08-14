@@ -1,0 +1,61 @@
+*Motivation of Machine Learning:-* (Refer Pdf Notes)
+
+Ques:- What is Machine Learnings?
+Ans:- Machine learns patterns from the data and tries to replicate same things in future.
+
+*Arthur Samual*:- According to him the subfield of Computer Science that gives computers the  ability to learn without explicitly programmed.
+
+ 
+*Traditional Programming Paradigm:- (Refer Pdf Notes)
+
+*M.L. Programming Paradigm:- (Refer Pdf Notes)
+
+Ques:- What is Model ?
+Ans:-
+
+Famous Person in A.I.:-
+(i)-Tom Mitchell
+(ii)-Andrew Neg
+(iii)-Jofre Hinton(Father of A.I.)
+
+
+Tom Mitchell :- According to Tom Mitchell a computer program is said to learn from experience DE with respect to some class of Task T and performance measure P if it's performance measure P at task T improves with experience E.
+
+*AI VS ML VS DL VS* :- (Refer Pdf Notes)
+
+*Types of ML*:- 
+
+  (i)- Supervised ML
+ (ii)- Un-supervised ML
+(iii)- Semi-supervised ML
+ (iv)- Reinforcement Learning
+ 
+ (i)- Supervised ML:- (Refer Pdf Notes) If target variable ,tags,level,response variable, dependent variable is given then it is called supervidsed machine learning.
+ 
+ Types of supervised learning:-
+ 
+  (i)- Regression :- y is continuous where y is targer variable.
+ (ii)- Classification :- If given data  y is discrete then we do prediction based on given discrete data.
+ 
+Regression:- SLR ,MLR,Polynomial,Lasso ,Ridge,KNN,DT,RF(Bagging is example of random Forest vs Boosting), XGR , SVM,SVR
+
+Classification:- Logistic Regression , Multi-class Classification, Naive Based Classification ,KNN ,DTC
+
+*After Unsupervised Learning:-* PCA
+
+(ii)- Unsupervised Learning:- y is not present there.With similar faces,shapes to seggrigate something.In unsupervised learning you have different interpretation. Segmenting in different groups. Unsupervised learning can be converted into supervised learning.
+
+
+*Informed Business Decision
+
+*Unlabel when y is not given and if y is given then it is label.
+
+* In unsupervised learning either you drop label coloumn and consider complete data as USL problem statement.
+
+(iii)- Semi-supervised Learning:- Combination of supervised and un-supervised learning. It doesnot have any it's own algorithm.
+
+Netflix Exp:-(Refer Pdf Notes)
+
+(iv)- Reinforcement Learning:- Reward Signal and Negative Signal and this is called envoirnment.  (Refer Pdf Notes)
+
+* w1 and w2 are weights.
