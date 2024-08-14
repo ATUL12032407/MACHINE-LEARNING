@@ -1,0 +1,93 @@
+*From today onwards real machine learning gets start.
+
+Agenda:-
+
+Scenario 1:- (Refer Pdf Notes) 
+
+* Train-Test-Split :- What raise you to divide the data into a:b ?
+
+Train Data>> Test Data
+
+*How to train and test the data ?
+
+
+*Divide train data further into two parts :-
+
+(i)- Train        (ii)- Validate      (iii)- Test
+
+If you are 100% sure then we use testing of model after completing (i) & (ii).
+
+*Hyperparametric Tunning 
+
+Exp:- (Refer Pdf Notes)
+
+Key-take away:-  (i)- Train & Test
+                 (ii)- Train, Validation & Test
+                 
+Ques:- Can we do hyperparametric tuning directly from training ?
+Ans:-  You will be jailed because you are cheating. Have you ever seen that the board exam paper were given to students ?
+
+*Data Leakege:- Here data Leakege means you have passed test information to training on the model then model will perform well on both train and test data. When you will deploy then model will perform worst in real world scenario and you will lost your job.
+
+*Validation data will act as test data while training.
+
+* Machine Learning Framework :- What is MLF?
+
+
+
+                                                  Data
+                                                   |
+                                            --------------
+                                            |            |
+                                          Train        Test
+
+
+* Ques:- What is Framework ?
+Ans :- Framework is a set of rules or pre-defined process or guidelines so ML Framework is 
+
+Exp:- (Refer Pdf Notes) Training of model=> Understanding the patterns => Mathematical Relationship.
+
+* Model Training :- Given the data estimate the prediction function by minimizing(Evaluation matrices)error. (ML Algorithms)
+
+* While training a model you have done learn a mathematical relationship. Based on actual y can we tell y train or y predict.
+
+* Key Take Away :- Train | Test  and y= f(x) .
+
+
+
+*Overfitting and underfitting :- (Refer Pdf Notes)
+
+
+* Based on the data will you be able to predict ?
+
+* Why you will not able to predict correctly for yellow points ?
+
+* In underfiiting model haven't learnt well.
+--> Less no. of required features
+--> Less no. of training data.
+--> Underfiiting algorithms.
+
+* How to identifythat the model is over / under / generalised ?? (Refer Pdf Notes )
+
+
+
+*Underfitting - High Baised and High Variance 
+
+* Variance :- Why variance is analogous to high testing  erroe?
+
+Ans:- Test data varies from the pattern thats why high testing error.
+
+Train --> Trained--> Accuracy (High) Low  Bias
+
+Test --> Tested--> Accuracy (Low) High  Variance
+
+This is classic case of overfitting.
+
+Generalised Model :- Train Accuracy (High) Low Bias
+                     Test Accuracy (High)
+ Low Variance 
+ 
+ **Bias Variance Tradeoff :- (Refer Pdf Notes)
+ 
+ ** In order to reduce high bias --> Use some more data points, more feature engeenering and use some ML algorithms.
+
