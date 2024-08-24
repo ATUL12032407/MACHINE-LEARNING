@@ -66,6 +66,9 @@ Exp:- (Refer Pdf Notes)
  (v)-  If missing value in column >30 % then drop the column.  Noise --> Data different from general or occuring unwanted.
  
  (vi)- If data is time series then you can not replace with mean , median , mode. Impute with previous observed value or impute with next observed value or average of previous and next (Interpolation) or moving average.
+
+*Anamoly:- Those data points which occurs very rare.
+*Outliers:- Which deviates from usual data.
                            
                            
                            
