@@ -1,0 +1,73 @@
+*Variance :- Hitting away from the target (High Bias -Low Variance) so Variance is spread from the target you are looking at.
+*Bias :- How close to the target you are (in figure)
+
+*Today's Agenda:-*
+
+ (i)- Data Preparation
+(ii)- Feature Engineering Techniques
+(iii)- Simple linear Regression
+(iv)- Eigenvalue & Eigenvectors
+
+*CRISP DM Framework:- Cross Industry Standard Process for Data Mining => Everything starts from Business Problem (Refer Pdf Notes) 
+
+*POC:- Proof of concept
+
+*EDA:-(Refer Pdf Notes)
+
+Data Preparation & Featrure Engeenering :-
+
+ (i)- Missing Value Treatment
+(ii)- Dropping the duplicate value
+(iii)-Outlier Detection & Treatment
+(iv)- Feature Engeenering  
+                                                    Feature Engeenering 
+                                                             |
+                   -------------------------------------------------------------------------------------------------------------------       
+                   |                                     |                                                     |                     |
+          Select Relevant Features           Create new Features from existing one       Modify the existing Features         Feature Scaling
+                                       
+Exp:- (Refer Pdf Notes)                                       
+
+*Data Encoding :- Some sort of convention for conversion of string to numerical.
+
+*We will use that feature which has highest co-relation.
+
+*Null/Missing Value Treatment :- (Refer Pdf Notes)
+
+** How to deal with missing values ? 
+
+  (i)- Never do missing value treatment without consulting to the business team.
+
+ (ii)- If missing value < 1% and data is large then you can drop a missing value.
+
+(iii)- If data is small and you don't want to drop the missing values (be it large or small), you will do imputations.
+
+                                           
+                                                 Imputations
+                                                      |
+                              -----------------------------------------------------------------------------                 
+                                                      |                                                   |
+                                                  Numerical                                          Categorical
+                                                      |                                                   |                        
+                                   -----------------------------------                                   Mode
+                                   |                                 |
+                          Outlier Treatmment(done)       Outlier Treatmment(not done)
+                              |                                     |
+                           Replace with mean                Replace with median  
+                           
+* (Refer Pdf Notes)
+
+* Replace with -1 or number that is not possible marks for that column.
+
+ (iv)-  Create a new column with a flag if the column is missing and impute some constant value in the missing column.
+ 
+ Exp:- (Refer Pdf Notes)
+ 
+ (v)-  If missing value in column >30 % then drop the column.  Noise --> Data different from general or occuring unwanted.
+ 
+ (vi)- If data is time series then you can not replace with mean , median , mode. Impute with previous observed value or impute with next observed value or average of previous and next (Interpolation) or moving average.
+                           
+                           
+                           
+                           
+                           
